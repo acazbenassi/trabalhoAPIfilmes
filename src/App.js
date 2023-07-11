@@ -1,12 +1,12 @@
 
 import './App.css';
-import Card from './componentes/card/card';
+import Menu from './componentes/card/menu';
 
 
 function App() {
   return (
     <div className="App">
-      <Card></Card>
+      <Menu></Menu>
       <p>Catalogo de Filmes</p>
     </div>
   );
