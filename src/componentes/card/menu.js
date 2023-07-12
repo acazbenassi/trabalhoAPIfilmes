@@ -2,14 +2,15 @@ import "./menu.css";
 
 
 function Menu() {
-    return (
-      <div className="menu">
-       
-        <button>testando</button>
-        <button>testando</button>
-        <button>testando</button>
+  return (
+    <div className="menu">
+
+      <div className="button">
+        <button>testando</button> <button>testando</button> <button>testando</button> <button>testando</button>
       </div>
-    );
-  }
-  
-  export default Menu;
+
+    </div>
+  );
+}
+
+export default Menu;

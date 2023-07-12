@@ -5,10 +5,14 @@ import Menu from './componentes/card/menu';
 
 function App() {
   return (
-    <div className="App">
+     <><div className="menuCard">
       <Menu></Menu>
-      <p>Catalogo de Filmes</p>
+
     </div>
+    <div className="App">
+
+        <p>Nerdolandia</p>
+      </div></>
   );
 }
 

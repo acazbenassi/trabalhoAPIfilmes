@@ -1,11 +1,19 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
 .menu{
 background-color: aqua;
-height: 75px;
-width: 2000px;
-box-sizing: border-box;
-flex-wrap: nowrap;
 
 
-
-
+margin: 0;
+    padding: 0;
+    height:75px;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    background: #b30d0d;
 }
