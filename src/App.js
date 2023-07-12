@@ -1,6 +1,5 @@
-
-import './App.css';
-import Menu from './componentes/card/menu';
+import Card from './componentes/card/card';
+import Menu from './componentes/card/menu/menu';
 
 
 function App() {
@@ -9,9 +8,9 @@ function App() {
       <Menu></Menu>
 
     </div>
-    <div className="App">
-
-        <p>Nerdolandia</p>
+    <div className="corpo">
+      <Card></Card>
+       
       </div></>
   );
 }
