@@ -1,5 +1,6 @@
 import Card from './componentes/card/card';
 import Menu from './componentes/card/menu/menu';
+import Home from './componentes/pages/Home';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 
     </div>
     <div className="corpo">
-      <Card></Card>
+      <Home/>
        
       </div></>
   );
