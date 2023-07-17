@@ -7,9 +7,11 @@ function Menu() {
  
   return (
     <div className="menu">
-   
-      
 
+      <div className="button">
+
+      </div>
+        
     </div>
   );
 }

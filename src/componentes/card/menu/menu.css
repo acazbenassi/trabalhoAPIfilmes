@@ -1,19 +1,59 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+
 
 .menu{
-border:5px solid #c0c0c0;
 
- 
-margin: 0;
-padding: 0;
-height:75px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: left;
-background: #b30d0d;
+    background-color: aliceblue;
+    justify-content: space-between;
+    padding: 5em;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    
 }
+
+.button{
+   
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+    
+    width: 50px;
+    color: #f9fffa;
+  
+    border: 1px solid #eaf5e9;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    transition: 1s;
+    background-color: #1dcfc6;
+
+  }
+@keyframes animado {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1,2);
+    }
+}
+.button:hover{
+    animation-name: animado; 
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+ }
+
+
+
+
+  
+  
+    
+  
+    
+       
