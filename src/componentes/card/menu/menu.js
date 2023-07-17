@@ -5,9 +5,9 @@ function Menu() {
     <div className="menu">
 
       <div className="button">
-        <button>testando</button> <button>testando</button> <button>testando</button> <button>testando</button>
-      </div>
 
+      </div>
+        
     </div>
   );
 }
