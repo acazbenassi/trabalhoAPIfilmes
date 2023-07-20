@@ -1,8 +1,12 @@
 
 
 .menu{
-
-    background-color: aliceblue;
+   /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 15%, rgba(5,2,18,1) 69%, rgba(69,231,252,1) 100%);*/
+    background: rgb(238,174,202);
+    background: linear-gradient(144deg, rgba(238,174,202,1) 0%, rgb(78, 123, 175) 100%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
     justify-content: space-between;
     padding: 5em;
     text-align: center;
@@ -10,7 +14,8 @@
     flex-wrap: nowrap;
     flex-direction: row;
     align-content: center;
-    
+    margin-top: 10px;
+    margin-bottom: 200px;
 }
 
 .button{
@@ -20,15 +25,15 @@
     padding: 1em;
     text-align: center;
     
-    width: 50px;
+    width: 1200px;
+    height: 80px;
     color: #f9fffa;
   
-    border: 1px solid #eaf5e9;
-    border-radius: 5px;
+   
     user-select: none;
     cursor: pointer;
     transition: 1s;
-    background-color: #1dcfc6;
+    background-color: #5c0397f3;
 
   }
 @keyframes animado {
