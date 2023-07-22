@@ -10,4 +10,4 @@ for(let i = 0; i < STAR_COUNT; i++){
 console.log(result.substring(0, result.length - 1))
 
 
-export default FundoAnimado;
+export default randomNumber;
