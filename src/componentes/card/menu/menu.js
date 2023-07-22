@@ -9,7 +9,7 @@ function Menu() {
     <div className="menu">
 
       <div className="button">
-
+      <h1>Naves star wars</h1>
       </div>
         
     </div>
