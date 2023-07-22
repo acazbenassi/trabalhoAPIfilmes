@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import FundoAnimado from './componentes/card/menu/FundoAnimado';
+import randomNumber from './componentes/card/menu/FundoAnimado';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
