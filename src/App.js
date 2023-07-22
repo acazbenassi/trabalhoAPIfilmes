@@ -8,9 +8,9 @@ import Home from './componentes/pages/Home';
 function App() {
   return (
 
-    <><div className="fundoAnimado"> 
+    <> <div className="fundoAnimado"> 
 
-
+    
 
 
 
