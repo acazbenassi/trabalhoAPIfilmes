@@ -3,8 +3,8 @@
 .menu{
    /* background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 15%, rgba(5,2,18,1) 69%, rgba(69,231,252,1) 100%);*/
-    background: rgb(238,174,202);
-    background: linear-gradient(144deg, rgba(238,174,202,1) 0%, rgb(78, 123, 175) 100%);
+    background: rgb(245, 248, 81);
+    background: linear-gradient(144deg, rgb(135, 185, 42) 0%, rgb(5, 28, 54) 100%);
     background-repeat: no-repeat, no-repeat;
     background-size: 100%;
     justify-content: space-between;
@@ -14,7 +14,7 @@
     flex-wrap: nowrap;
     flex-direction: row;
     align-content: center;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 200px;
 }
 
@@ -33,7 +33,7 @@
     user-select: none;
     cursor: pointer;
     transition: 1s;
-    background-color: #5c0397f3;
+    background-color: #1d0130f3;
 
   }
 @keyframes animado {

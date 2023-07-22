@@ -1,17 +1,54 @@
-body {
-  background-image: url(https://s2.glbimg.com/mraiokvrFuYy8SVw6j7s6V3BMAQ=/e.glbimg.com/og/ed/f/original/2014/11/26/maxresdefault.jpg);
-  background-size: contain;
-  background-position: left,center;
-  
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+
+.fundoAnimado{  
+
+
+border-radius: 50%;
+  box-shadow: -24vw -44vh 2px 2px #fff,38vw -4vh 0px 0px #fff,-20vw -48vh 1px 2px #fff,-39vw 38vh 3px 1px #fff,-42vw -11vh 0px 3px #fff,12vw 15vh 3px 3px #fff,42vw 6vh 3px 2px #fff,-8vw 9vh 0px 2px #fff,34vw -38vh 1px 0px #fff,-17vw 45vh 3px 1px #fff,22vw -36vh 3px 2px #fff,-42vw 1vh 1px 0px #fff;
+  animation: zoom 10s alternate infinite;
+  position: fixed;
+
+
+}
+.main{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000
+
+  
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto;
+    justify-content: center;
 }

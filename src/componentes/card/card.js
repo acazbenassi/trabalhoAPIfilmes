@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
 import "./card.css";
 
 function Card({nome,classe,tripulantes,fabricante,filmes}) {
 return (
-<div className = "card">
+<div className = "card-content">
    
 
 
