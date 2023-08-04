@@ -1,5 +1,5 @@
 import "./menu.css";
-import  logo from "../../logo.png"
+import  logo from "../../images/logo.png"
 
 function Menu() {
   
