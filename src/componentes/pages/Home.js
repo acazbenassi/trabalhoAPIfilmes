@@ -4,7 +4,7 @@ function Home() {
     const [pegaNaves, setPegaNaves] = useState([]);
 
     async function fetchNaves() {
-        const resposta = await fetch("https://swapi.dev/api/starships/", {
+        const resposta = await fetch("https://rickandmortyapi.com/api/episode", {
             method: "GET",
         });
         const arquivo = await resposta.json();
@@ -22,10 +22,10 @@ function Home() {
             {pegaNaves.map(nave => {
                 return <Card key={nave.id} 
                 nome ={nave.name} 
-                classe ={nave.model} 
-                tripulantes ={nave.crew} 
-                fabricante ={nave.manufacturer}
-                filmes ={nave.films}/>
+                episodes = {nave.episode} 
+                air_date={nave.air_date}
+                
+                />
             })}
 
 

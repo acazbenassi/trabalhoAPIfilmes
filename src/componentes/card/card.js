@@ -1,6 +1,6 @@
 import "./card.css";
-
-function Card({nome,classe,tripulantes,fabricante,filmes}) {
+import  fundo from "../../images/fundo.png"
+function Card({nome,episodes,air_date,}) {
 return (
 <div className = "card-content">
    
@@ -8,12 +8,13 @@ return (
 
 
  <div className ="innerCard"> <ul>
-   <li>Nome: {nome} </li> 
-   <li>Classe: {classe} </li>
-   <li>Tripulantes: {tripulantes} </li>
-   <li>Fabricante: {fabricante} </li>
+ <img src ={fundo} alt="" title=""></img>
+   <li>Nome: {nome} </li>
+   <li>Episodes: {episodes} </li>  
+   <li>Air date: {air_date} </li> 
+  
+   </ul> 
    
-   </ul>
  </div>
 
 
