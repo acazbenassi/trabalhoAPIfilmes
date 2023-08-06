@@ -1,7 +1,7 @@
 .card-content{
   border: 6px solid rgb(21, 243, 139);
   display: flex;
-  background-color: rgb(126, 201, 119);
+  background-color: rgb(30, 151, 19);
   height: 300px;
   width: min-content;
   /* gap: 30px; */
@@ -9,15 +9,16 @@
 }
 
   .innerCard{
-    border: 2px solid rgb(138, 216, 252);
-    width: 311px;
+    border: 2px solid rgb(30, 151, 19); 
+    width: 200px;
     margin: 2rem;
     align-items: center;
     justify-content: center;
-    color: rgb(8, 57, 71);
+    color: rgb(12, 12, 12);
     display: flex;
     flex-wrap: nowrap;
     text-align: justify;
+  
 
     user-select: none;
     cursor: pointer;
@@ -33,7 +34,7 @@
 }
 
 .innerCard ul li{
-   font-size: 12px;
+   font-size: 20px;
 
 }
 
