@@ -1,7 +1,7 @@
 .card-content{
-  border: 6px solid red;
+  border: 6px solid rgb(21, 243, 139);
   display: flex;
-  background-color: rgb(9, 10, 6);
+  background-color: rgb(126, 201, 119);
   height: 300px;
   width: min-content;
   /* gap: 30px; */
@@ -9,23 +9,39 @@
 }
 
   .innerCard{
-    border: 2px solid rgb(238, 188, 188);
+    border: 2px solid rgb(138, 216, 252);
     width: 311px;
     margin: 2rem;
     align-items: center;
     justify-content: center;
-    color: rgb(250, 250, 250);
+    color: rgb(8, 57, 71);
     display: flex;
     flex-wrap: nowrap;
     text-align: justify;
+
+    user-select: none;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+ 
+    
   }
 .innerCard ul{
   display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 .innerCard ul li{
    font-size: 12px;
 
 }
+
+	
+
+
+
+
+
+
+
