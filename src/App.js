@@ -1,5 +1,5 @@
 import Card from './componentes/card/card';
-import Menu from './componentes/card/menu/menu';
+import Menu from './componentes/menu/menu';
 import Home from './componentes/pages/Home';
 
 
@@ -16,11 +16,11 @@ function App() {
 
     </div><>
     <div className="menuCard">
-      <Menu></Menu>
+      <Menu/>
 
     </div>
       <div className="corpo">
-        <Home />
+        <Home/>
 
       </div></></>
        
