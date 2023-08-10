@@ -1,42 +1,25 @@
 .card-content{
   
   display: flex;
-  background-color: rgb(30, 151, 19);
+  background: linear-gradient(144deg, rgb(3, 182, 236) 0%, rgba(240, 216, 5, 0.979) 100%);
   height: 300px;
-  width: min-content;
-  /* gap: 30px; */
-  border-radius: 55px;
+  border-radius: 70px;
 }
 
   .innerCard{
-    border: 2px solid rgb(30, 151, 19); 
-    width: 200px;
-    margin: 2rem;
+    width: 250px;
+    margin: 2.5rem;
     align-items: center;
-    justify-content: center;
-    color: rgb(12, 12, 12);
-    display: flex;
-    flex-wrap: nowrap;
     text-align: justify;
-  
-
-    user-select: none;
-    cursor: pointer;
-    transition: 1s;
+    color: rgb(16, 126, 216);
+    font-size: 20px;
     display: flex;
- 
-    
-  }
-.innerCard ul{
-  display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
+   
 
-.innerCard ul li{
-   font-size: 20px;
+   }
 
-}
+
+
 
 	
 

@@ -36,7 +36,7 @@ function Home() {
     return (
         <>
             <div className="divPesquisar">               
-                <input className="inputPesquisar" placeholder="Pesquisar personagem" value={busca} onChange={(e) => pesquisar(e.target.value)} />
+                <input className="inputPesquisar" placeholder="Pesquisar episodio" value={busca} onChange={(e) => pesquisar(e.target.value)} />
             </div>
            
             <div className="card">                

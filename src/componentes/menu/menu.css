@@ -1,11 +1,9 @@
-
-
 .menu{
    /* background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 15%, rgba(5,2,18,1) 69%, rgba(69,231,252,1) 100%);*/
-    background: rgb(245, 248, 81);
-    background: linear-gradient(144deg, rgb(135, 185, 42) 0%, rgb(5, 28, 54) 100%);
-    background-repeat: no-repeat, no-repeat;
+   
+    background: linear-gradient(144deg, rgb(3, 182, 236) 0%, rgba(240, 216, 5, 0.979) 100%);
+   
     background-size: 100%;
     justify-content: space-between;
     padding: 5em;
@@ -14,8 +12,9 @@
     flex-wrap: nowrap;
     flex-direction: row;
     align-content: center;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 100px;
+    border-radius: 200px;
 }
 
 .button{
@@ -26,7 +25,7 @@
     text-align: center;
     
     width: 1200px;
-    height: 80px;
+    height: 60px;
     color: #f9fffa;
   
    
